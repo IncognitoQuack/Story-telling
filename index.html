@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storytelling</title>
+    <link rel="icon" href="https://simpleshow.com/wp-content/uploads/2021/04/simpleshow_open_book_preview1-1100x475.png" type="image/x-icon">
+</head>
+<style>
+    /* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Verdana', sans-serif;
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Main container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    background: linear-gradient(135deg, #6a89cc, #b8e994);
+}
+
+/* Content box */
+.content {
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+}
+
+/* Heading style */
+.content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #1e272e;
+}
+
+/* Paragraph and list style */
+.content p, .content ul {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* List style */
+.content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    text-align: left;
+}
+
+/* Highlighted text */
+.content strong {
+    color: #d35400;
+}
+
+/* Hover effect for interactivity (simulated for images) */
+img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* Button to go to main site */
+.main-site-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #2980b9;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.main-site-btn:hover {
+    background-color: #3498db;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .content {
+        padding: 20px;
+    }
+
+    .content h1 {
+        font-size: 2rem;
+    }
+
+    .content p, .content ul {
+        font-size: 0.9rem;
+    }
+}
+
+</style>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Welcome to Our Storytelling Site</h1>
+            <p>This site offers a unique storytelling experience with features like:</p>
+            <ul>
+                <li>Auto-scroll and auto-switching to enhance your reading experience</li>
+                <li>Responsive images with interactive hover effects</li>
+                <li>A story section with an auto-scroll button for added convenience</li>
+                <li>A chatbot to answer questions related to the story</li>
+            </ul>
+            <p><strong>Important:</strong> Please avoid scrolling manually on the landing page as it will auto-scroll and open the story automatically. If you'd like to start the animation again, simply re-enter the URL in a new window to avoid any issues.</p>
+            <p>This site was proudly created by <strong>Team Kremlin Coders</strong>.</p>
+
+            <!-- Add a link to the main site -->
+            <a href="home.html" class="main-site-btn">Go to Main Site</a>
+        </div>
+    </div>
+</body>
+</html>
